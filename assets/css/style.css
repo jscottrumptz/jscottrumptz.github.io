@@ -1,20 +1,31 @@
+/* SITE COLOR VARIABLES */
 :root {
   --primary-color: #fce138;
   --secondary-color: #000000;
   --tertiary-color: #ffffff;
 }
 
-
+/* DEFAULT CSS */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* BACKGROUND COLOR AND DEFAULT FONT FAMILIES */
 body {
   background-color: var(--tertiary-color);
 }
 
+p {
+  font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Sanchez', serif;
+}
+
+/* BEGIN HEADER */
 header {
     padding: 10% 6%;
     background-color: var(--tertiary-color);
@@ -27,7 +38,6 @@ header {
   }
   
   header h1 {
-    font-family: 'Sanchez', serif;
     font-weight: bold;
     font-size: 60px;
     color: var(--primary-color);
@@ -35,7 +45,6 @@ header {
   }
 
   header h2 {
-    font-family: 'Sanchez', serif;
     font-weight: lighter;
     font-size: 40px;
     color: var(--primary-color);
@@ -47,4 +56,25 @@ header {
     font-weight: lighter;
     font-size: 20px;
   }
+/* END HEADER */
 
+/* BEGIN ABOUT ME */
+.about-me {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-me img {
+  width: 400px;
+}
+
+.about-me h2 {
+font-size: 30px;
+}
+
+/* END ABOUT ME */
