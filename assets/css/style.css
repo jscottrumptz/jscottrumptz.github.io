@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #fce138;
+  --secondary-color: #000000;
+  --tertiary-color: #ffffff;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--tertiary-color);
+}
+
+header {
+    padding: 10% 6%;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-image: url("../images/dragon-scene-red-fire.jpg");
+    background-size: cover;
+    background-position: bottom;
+  }
+  
+  header h1 {
+    font-family: 'Sanchez', serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+
+  header h2 {
+    font-family: 'Sanchez', serif;
+    font-weight: lighter;
+    font-size: 40px;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+
+  header h3 {
+    font-family: 'Sanchez', serif;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+
