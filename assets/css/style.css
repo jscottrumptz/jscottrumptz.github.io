@@ -204,7 +204,7 @@ header nav ul li a:hover {
   border: 5px solid var(--secondary-color);
 }
 
-.example p {
+.example p, .example .button{
   display: none;
 }
 
@@ -256,6 +256,17 @@ font-family: var(--secondary-font);
 font-weight: bold;
 font-size: 18px;
 color: var(--primary-color);
+}
+
+.example:hover .button {
+  display: unset;
+  text-decoration: none;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 5px;
+  border: none;
+  font-family: var(--secondary-font);
+  font-weight: bold;
 }
 /* END WORK*/
 
