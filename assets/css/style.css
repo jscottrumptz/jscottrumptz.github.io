@@ -269,6 +269,59 @@ color: var(--primary-color);
 }
 /* END WORK*/
 
+/* BEGIN CONTACT */
+.contact-me {
+  margin: 50px auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contact-me h2 {
+  font-size: 30px;
+  flex: 1 15%;
+  padding: 5px 10px;
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+  text-align: center;
+  }
+
+.contact-info {
+  flex: 2 85%;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  background-color: var(--tertiary-color);
+  padding: 10px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 22px;
+}
+
+.phone:hover, .email:hover, .linkedin:hover, .github:hover {
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+  margin: -8px;
+  padding: 8px;
+}
+/* END CONTACT */
+
+/* BEGIN FOOTER */
+footer h2 {
+  text-align: center;
+  color: var(--tertiary-color);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 20px;
+}
+/* END FOOTER */
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 1200px) {
@@ -322,6 +375,11 @@ color: var(--primary-color);
 
   .example:hover p span{
     font-size: 16px;
+  }
+
+  .contact-me h2{
+    padding: 5px 25%;
+    margin-bottom: 0;
   }
 }
 
