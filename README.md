@@ -10,6 +10,8 @@ My personal website featuring a current portfolio of my work.
 ## Website
 https://jscottrumptz.github.io/
 
+![image](https://user-images.githubusercontent.com/74981245/102695850-93f18400-41ef-11eb-887a-b327b46da444.png)
+
 ## Contribution
 Made with ❤️ by J Scott Rumptz
 
