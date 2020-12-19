@@ -303,7 +303,7 @@ color: var(--primary-color);
   font-size: 22px;
 }
 
-.phone:hover, .email:hover, .linkedin:hover, .github:hover {
+.phone:hover a, .email:hover a, .linkedin:hover a, .github:hover a {
   color: var(--tertiary-color);
   background-color: var(--secondary-color);
   margin: -8px;
@@ -440,5 +440,24 @@ footer h2 {
 
   .example:hover p span{
     font-size: 34px;
+  }
+
+  .contact-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .contact-info a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .contact-info:hover a{
+    margin: -5px;
+    padding: 15px;
   }
 }
