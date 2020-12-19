@@ -44,28 +44,28 @@
         <!-- about me section for employers to get to know me -->
         <section class="about-me" id="about-me">
             <h2>About Me</h2>
-            <div class="about-me-info">
-                <div class="about-me-img">
-                    <h2>About Me</h2>
-                    <img src="./assets/images/j-scott-rumptz.jpg" alt="A photo of J. Scott Rumptz, a strikingly handsom web developer with piercing blue eyes">
-                </div>
-                <div class="about-me-text">
-                    <p>
-                        Full stack web developer with graphic design, 3D modeling, and unity game development experience. Marketing, product development, and business operations background. Currently undertaking a full-stack web development program through Vanderbilt University, with recently enhanced skills in JavaScript, CSS, and HTML.
-                        </br></br>
-                        A reputation for perfectionism and out the box thinking when problem solving. Ready to lead and work as a team, leveraging 5 years of business operations and 15 years of upper management experience in a highly competitive work environment. Positioned to provide unique perspectives on how executive end users interact with websites and software platforms by leveraging a background in business operations.
-                        </br></br>
-                        I am excited by thoughtful design and fascinated by cutting edge productivity tools. I am looking to bring my extensive business background along with my recently refined full stack skill set to an engaged, quality driven team with an eye on innovation.   
-                     </p>
-                </div>
-            </div>
+            <about-me-info class="about-me-info">
+              <about-me-img class="about-me-img">
+                <h2>About Me</h2>
+                <img src="./assets/images/j-scott-rumptz.jpg" alt="A photo of J. Scott Rumptz, a strikingly handsom web developer with piercing blue eyes">
+              </about-me-img>
+              <about-me-text class="about-me-text">
+                <p>
+                  Full stack web developer with graphic design, 3D modeling, and unity game development experience. Marketing, product development, and business operations background. Currently undertaking a full-stack web development program through Vanderbilt University, with recently enhanced skills in JavaScript, CSS, and HTML.
+                  </br></br>
+                  A reputation for perfectionism and out the box thinking when problem solving. Ready to lead and work as a team, leveraging 5 years of business operations and 15 years of upper management experience in a highly competitive work environment. Positioned to provide unique perspectives on how executive end users interact with websites and software platforms by leveraging a background in business operations.
+                  </br></br>
+                  I am excited by thoughtful design and fascinated by cutting edge productivity tools. I am looking to bring my extensive business background along with my recently refined full stack skill set to an engaged, quality driven team with an eye on innovation.   
+                </p>
+              </about-me-text>
+            </about-me-info>
         </section>
 
         <!-- work section higlighting my web applications -->
         <section class="work" id="work">
           <h2>Work</h2>
-            <div class="portfolio">
-              <div class="example project-nexus">
+            <portfolio class="portfolio">
+              <project-nexus class="example project-nexus">
                 <p>
                   <span>D-VERSE.COM</span>
                   </br>
@@ -73,8 +73,8 @@
                   </br></br>
                   <a href="https://d-verse.com" class="button" target="_blank">CHECK IT OUT!</a>
                 </p>
-              </div>
-              <div class="example project-stand-up-kids">
+              </project-nexus>
+              <project-stand-up-kids class="example project-stand-up-kids">
                 <p>
                   <span>STANDUPKIDS.COM</span>
                   </br>
@@ -82,8 +82,8 @@
                   </br></br>
                   <a href="http://www.standupkids.com/new/" class="button" target="_blank">CHECK IT OUT!</a>
                 </p>
-              </div>
-              <div class="example project-rifts-cc">
+              </project-stand-up-kids>
+              <project-rifts-cc class="example project-rifts-cc">
                 <p>
                   <span>RIFTS CHARACTER CREATOR</span>
                   </br>
@@ -91,8 +91,8 @@
                   </br></br>
                   <a href="http://www.standupkids.com/cc/" class="button" target="_blank">CHECK IT OUT!</a>
                 </p>
-              </div>
-              <div class="example project-su-city">
+              </project-rifts-cc>
+              <project-su-city class="example project-su-city">
                 <p>
                   <span>STANDUP CITY</span>
                   </br>
@@ -100,8 +100,8 @@
                   </br></br>
                   <a href="http://www.standupkids.com/sucity2/" class="button" target="_blank">CHECK IT OUT!</a>
                 </p>
-              </div>
-              <div class="example project-runbuddy">
+              </project-su-city>
+              <project-runbuddy class="example project-runbuddy">
                 <p>
                   <span>RUNBUDDY PROJECT</span>
                   </br>
@@ -109,28 +109,35 @@
                   </br></br>
                   <a href="https://jscottrumptz.github.io/run-buddy/" class="button" target="_blank">CHECK IT OUT!</a>
                 </p>
-              </div>
-              <div class="example">
+              </project-runbuddy>
+              <project-friendzies class="example">
                 <iframe height=100% width=100% src="https://www.youtube.com/embed/1b41lSIuACM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-          </div>
+              </project-friendzies>
+          </portfolio>
         </section>
 
         <!-- my contact information for potential employers -->
         <section class="contact-me" id="contact-me">
           <h2>Contact Me</h2>
-          <div class="contact-info">
-            <div class="phone" ><a href="tel:9013382186">901.338.2186</a></div>
-            <div class="email"><a href="mailto:jscott@rumptz.tech">jscott@rumptz.tech</a></div>
-            <div class="linkedin"><a href="https://www.linkedin.com/in/j-scott-rumptz-b135b2200/" target="_blank">LinkedIn</a></div>
-            <div class="github"><a href="https://github.com/jscottrumptz/" target="_blank">GitHub</a></div>
-          </div>  
+          <contact-info class="contact-info">
+            <phone class="phone" >
+              <a href="tel:9013382186">901.338.2186</a>
+            </phone>
+            <email class="email">
+              <a href="mailto:jscott@rumptz.tech">jscott@rumptz.tech</a>
+            </email>
+            <linkedin class="linkedin">
+              <a href="https://www.linkedin.com/in/j-scott-rumptz-b135b2200/" target="_blank">LinkedIn</a>
+            </linkedin>
+            <github class="github">
+              <a href="https://github.com/jscottrumptz/" target="_blank">GitHub</a>
+            </github>
+          </contact-info>  
         </section>
 
         <!-- a footer containing copywrite info -->
         <footer>
           <h2>❤️ Made with love by J. Scott Rumptz.</h2>
         </footer>
-
     </body>
 </html>
