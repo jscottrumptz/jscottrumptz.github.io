@@ -276,7 +276,6 @@ color: var(--primary-color);
   header {
     padding-bottom: 0;
     justify-content: center;
-    position: relative;
   }
 
   header h1 {
@@ -328,7 +327,20 @@ color: var(--primary-color);
 
 /* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
 @media screen and (max-width: 768px) {
-               
+  
+  header {
+    position: relative;
+  }
+
+  .hero {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero h3{
+    margin: 20px 20px 20px 20px;
+  }
+
   .about-me-img {
     width: fit-content;
     margin: 0;
