@@ -470,7 +470,7 @@ footer h2 {
   }
 
   .contact-info:hover a{
-    margin: -5px;
     padding: 5px;
+    margin: 0px;
   }
 }
